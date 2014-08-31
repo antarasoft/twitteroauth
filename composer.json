@@ -1,4 +1,11 @@
 {
     "name": "antarasoft/twitteroauth",
-    "version": "master"
+    "version": "master",
+
+    "autoload": {
+        "psr-0": {
+            "Twitterouath": "twitteroauth/"
+        },
+        "files": [ "twitteroauth/twitteroauth.php" ]
+    }
 }
